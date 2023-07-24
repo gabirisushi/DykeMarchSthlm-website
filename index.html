@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dyke March Stockholm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="icon" href="assets/static/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/static/css/style.css" />
+    <!-- Custom CSS file -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll('.navbar-burger'),
+          0
+        );
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach((el) => {
+          el.addEventListener('click', () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          });
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- Navigation bar-->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://dykemarchsthlm.com">
+          <img
+            src="assets/static/img/dyke-march-sthlm-logo-horizontal.png"
+            alt="Dyke March Stockholm"
+          />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="#" class="navbar-item"> Home </a>
+          <a href="#about" class="navbar-item"> About </a>
+          <a
+            href="https://fb.me/e/1dvsin9Hg"
+            target="_blank"
+            class="navbar-item"
+          >
+            Events
+          </a>
+          <a
+            href="https://www.instagram.com/p/Crp8LDxMNQV/"
+            target="_blank"
+            class="navbar-item"
+          >
+            2023
+          </a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a
+              href="https://www.facebook.com/dykemarchstockholm/events"
+              target="_blank"
+            >
+              <img
+                style="margin: 5px"
+                src="assets/static/brands/Facebook.png"
+                width="28px"
+                alt="Facebook logo"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/dykemarchstockholm/"
+              target="_blank"
+            >
+              <img
+                style="margin: 5px"
+                src="assets/static/brands/Instagram.png"
+                width="26px"
+                alt="Instagram logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- First section -->
+    <section class="section">
+      <div class="container py-5">
+        <div class="columns is-vcentered">
+          <div class="column is-4 has-text-centered">
+            <img
+              src="assets/static/img/dyke-march-sthlm-logo.png"
+              width="200"
+            />
+            <p class="is-size-5">
+              <a href="https://dykemarchsthlm.com">Dyke March Stockholm</a> is a
+              demonstration by and for all dykes in the broadest sense. We
+              choose to use the term "dyke" as an umbrella term which includes a
+              large diversity of people who may all have common experiences and
+              experiences of existing in the world.
+            </p>
+          </div>
+          <div class="column">
+            <figure class="image is-fullwidth">
+              <img src="assets/static/img/march-photo.jpg" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA to event page section-->
+    <section class="is-size-4 has-text-centered is-align-items-center">
+      <div class="container py-5 is-fluid pink-background">
+        <div class="columns">
+          <div
+            class="column is-flex is-flex-direction-column is-justify-content-center is-align-content-center"
+            style="min-height: 350px"
+          >
+            <p class="is-size-5">
+              Join us in our next events, check our <b>Facebook</b> page!
+            </p>
+            <br />
+            <div>
+              <a
+                class="button is-medium"
+                target="_blank"
+                href="https://www.facebook.com/dykemarchstockholm/events"
+                >SEE EVENTS</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section
+      class="hero is-medium background-image"
+      style="
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <div class="hero-body is-size-5">
+          <div class="columns">
+            <div class="column is-half is-offset-half">
+              <div class="box clean-box-on-mobile">
+                <h1 class="title" id="about">About</h1>
+                <div class="is-hidden-tablet has-text-centered">
+                  <figure class="image is-fullwidth">
+                    <img src="assets/static/img/signs-2.jpg" />
+                  </figure>
+                  <br />
+                </div>
+                <div class="block">
+                  <p>
+                    <span style="color: #f1b5dd">Dyke March Stockholm</span> is
+                    a demonstration that unites and uplifts dykes in all their
+                    beautiful diversity.
+                  </p>
+                </div>
+
+                <div class="block">
+                  <p>
+                    We embrace the term as an inclusive umbrella, welcoming
+                    lesbian dykes, bisexual dykes, pansexual dykes, trans dykes,
+                    non-binary dykes, butch dykes, femme dykes, queer dykes,
+                    dykes who are unsure if they are dykes, dykes who are dykes
+                    in silence, dykes who want to shout that they are dykes from
+                    the rooftops.
+                  </p>
+                </div>
+
+                <div class="block">
+                  <p>
+                    This demonstration want to amplifies our voices by fighting
+                    marginalization and fostering LGBTQIA+ unity.
+                  </p>
+                </div>
+
+                <div class="block">
+                  <p>
+                    We invite all dykes who resonate with our experiences to
+                    join us, as we proudly march towards a brighter future for
+                    all. 🌈
+                    <br /><br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Volunteer section -->
+    <section class="is-size-4 has-text-centered is-align-items-center">
+      <div class="container py-5 is-fluid pink-background">
+        <div class="columns">
+          <div
+            class="column is-flex is-flex-direction-column is-justify-content-center is-align-content-center"
+            style="min-height: 350px"
+          >
+            <p class="is-size-5">
+              Want to contact us or volunteer? Just drop us a line!
+            </p>
+            <br />
+            <div>
+              <a
+                class="button is-medium"
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScQVyw7MGoZiTsgx4NdWva37OIR7XaK8DF4veGDeOQSXBMVEw/viewform"
+                >JOIN US</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photos section -->
+    <section>
+      <div class="container py-6 is-fluid">
+        <div class="columns">
+          <div class="column">
+            <figure class="image">
+              <img src="assets/static/img/group-photo.jpg" />
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="image">
+              <img src="assets/static/img/signs-1.jpg" />
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="image">
+              <img src="assets/static/img/march-photo.jpg" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div
+        class="content has-text-centered is-flex-align-items-flex-end mt-auto"
+      >
+        <p>
+          <strong>Dyke March Sthlm</strong> | The
+          <a href="#">
+            source code
+            <img
+              src="assets/static/brands/github.svg"
+              height="15px"
+              width="15px"
+              alt="github logo"
+            />
+          </a>
+          is licensed
+          <a
+            href="https://github.com/python-sverige/pyladies-sthlm/blob/main/LICENSE"
+            >MIT</a
+          >. The website content is licensed
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+            >CC BY-NC-ND 4.0</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
